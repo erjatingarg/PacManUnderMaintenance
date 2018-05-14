@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project>
+<Configuration packages="com.homedepot.mm.pc.pacman" monitorInterval="5">
+    <Appenders>
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="TS=%d{yyyy-MM-dd HH:mm:ss},thread=[%t],level=%-5level,appName=${cf:application_name},space=${cf:space_name},class=%c{1}:%M:%L,msg=%m%n"/>
+        </Console>
+    </Appenders>    
+	
+    <Loggers>
+      <!--   <Root level="${cf:LOG_LEVEL}" additivity="false"> -->
+      <Root level="info" additivity="false">
+        <!-- GOOD WITH CLOUD : level="info","debug","error","warn","all","trace" -->
+            <AppenderRef ref="console"/>
+        </Root>
+    </Loggers>
+    
+</Configuration>

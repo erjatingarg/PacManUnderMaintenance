@@ -1,0 +1,26 @@
+	{
+      "user-provided": [
+	        {
+	          	"name": "Oracle.PacMan",
+	          	"credentials": {
+	            "connectionTimeout": 30000,
+	            "jdbcUrl": "jdbc:oracle:thin:@//pnpmm77z.homedepot.com:1521/dqa19ss_rw_prcn_01",
+	            "maximumPoolSize": 10,
+	            "username": "PRCNAP11",
+	            "password": "PUh6spVx"	            
+	        	}
+	        },
+	        {
+	    	"name": "db2.service",
+	        "credentials": 
+		        {
+		        	"jdbcUrl" : "jdbc:db2://ibdyny1.sysplex.homedepot.com:5345/NY1",
+					"driverClassName" : "com.ibm.db2.jcc.DB2Driver",
+					"username" : "QP1MM67",
+					"password" : "67MM1PQ",
+					"connectionTimeout" : 30000,
+					"maximumPoolSize" : 10
+		        }
+			}		
+		]   
+	}
